@@ -33,6 +33,6 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "@types/node": "^14.0.13"
+    "@types/node": "^14.0.22"
   }
 }
