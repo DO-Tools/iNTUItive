@@ -18,7 +18,7 @@ import worldCups from "../data/world-cups";
         console.log(`Could not find world cup data for competition ${competition}`);
         return;
     }
-    const options: NodeListOf<HTMLOptionElement> = document.querySelectorAll("select[name='divisionSelect'] > option");
+    const options: NodeListOf<HTMLSelectElement> = document.querySelectorAll("select[name='divisionSelect'] > option");
     // Enhance the group names with the countries participating
     options.forEach((o) => {
         const group: WorldCupGroup = worldCupDraw[o.value];
